@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0279C31C2AD6349B00D7C6EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279C31B2AD6349B00D7C6EB /* HomeView.swift */; };
+		0279C31D2AD6349B00D7C6EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279C31B2AD6349B00D7C6EB /* HomeView.swift */; };
+		0279C31E2AD6349B00D7C6EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279C31B2AD6349B00D7C6EB /* HomeView.swift */; };
+		0279C3212AD680A700D7C6EB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3202AD680A700D7C6EB /* FirebaseAnalytics */; };
+		0279C3232AD680A700D7C6EB /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3222AD680A700D7C6EB /* FirebaseAnalyticsOnDeviceConversion */; };
+		0279C3252AD680A700D7C6EB /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3242AD680A700D7C6EB /* FirebaseAnalyticsSwift */; };
+		0279C3272AD680A700D7C6EB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3262AD680A700D7C6EB /* FirebaseAuth */; };
+		0279C3292AD680A700D7C6EB /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3282AD680A700D7C6EB /* FirebaseAuthCombine-Community */; };
+		0279C32B2AD680A700D7C6EB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C32A2AD680A700D7C6EB /* FirebaseDatabase */; };
+		0279C32D2AD680A700D7C6EB /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C32C2AD680A700D7C6EB /* FirebaseDatabaseSwift */; };
+		0279C32F2AD680A700D7C6EB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C32E2AD680A700D7C6EB /* FirebaseFirestore */; };
+		0279C3312AD680A700D7C6EB /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3302AD680A700D7C6EB /* FirebaseFirestoreCombine-Community */; };
+		0279C3332AD680A700D7C6EB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3322AD680A700D7C6EB /* FirebaseFirestoreSwift */; };
+		0279C3352AD680A700D7C6EB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0279C3342AD680A700D7C6EB /* FirebaseStorage */; };
+		0279C3372AD6815700D7C6EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0279C3362AD6815700D7C6EB /* GoogleService-Info.plist */; };
+		0279C3382AD6815700D7C6EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0279C3362AD6815700D7C6EB /* GoogleService-Info.plist */; };
+		0279C3392AD6815700D7C6EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0279C3362AD6815700D7C6EB /* GoogleService-Info.plist */; };
+		029458FF2ABF7A1E002CEAA4 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029458FE2ABF7A1E002CEAA4 /* OpenAI.swift */; };
+		029459002ABF7A1E002CEAA4 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029458FE2ABF7A1E002CEAA4 /* OpenAI.swift */; };
+		029459012ABF7A1E002CEAA4 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029458FE2ABF7A1E002CEAA4 /* OpenAI.swift */; };
+		029459062ABF7C30002CEAA4 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 029459052ABF7C30002CEAA4 /* OpenAIKit */; };
+		02B936D62AB9413000AEB1F4 /* JenniCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B936D52AB9413000AEB1F4 /* JenniCareApp.swift */; };
+		02B936D82AB9413000AEB1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B936D72AB9413000AEB1F4 /* ContentView.swift */; };
+		02B936DA2AB9413000AEB1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B936D92AB9413000AEB1F4 /* Assets.xcassets */; };
+		02B936DD2AB9413000AEB1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B936DC2AB9413000AEB1F4 /* Preview Assets.xcassets */; };
+		02B936DF2AB9413000AEB1F4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B936DE2AB9413000AEB1F4 /* Persistence.swift */; };
+		02B936E22AB9413100AEB1F4 /* JenniCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02B936E02AB9413100AEB1F4 /* JenniCare.xcdatamodeld */; };
+		02B936EC2AB9413100AEB1F4 /* JenniCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B936EB2AB9413100AEB1F4 /* JenniCareTests.swift */; };
+		02B936F62AB9413100AEB1F4 /* JenniCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B936F52AB9413100AEB1F4 /* JenniCareUITests.swift */; };
+		02B936F82AB9413100AEB1F4 /* JenniCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B936F72AB9413100AEB1F4 /* JenniCareUITestsLaunchTests.swift */; };
+		02B937182AB9482100AEB1F4 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B937172AB9482100AEB1F4 /* Backend.swift */; };
+		02B937192AB9482100AEB1F4 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B937172AB9482100AEB1F4 /* Backend.swift */; };
+		02B9371A2AB9482100AEB1F4 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B937172AB9482100AEB1F4 /* Backend.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B936E82AB9413100AEB1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B936CA2AB9413000AEB1F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B936D12AB9413000AEB1F4;
+			remoteInfo = JenniCare;
+		};
+		02B936F22AB9413100AEB1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B936CA2AB9413000AEB1F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B936D12AB9413000AEB1F4;
+			remoteInfo = JenniCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0279C31B2AD6349B00D7C6EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0279C3362AD6815700D7C6EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		029458FE2ABF7A1E002CEAA4 /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
+		02B936D22AB9413000AEB1F4 /* JenniCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenniCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B936D52AB9413000AEB1F4 /* JenniCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenniCareApp.swift; sourceTree = "<group>"; };
+		02B936D72AB9413000AEB1F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02B936D92AB9413000AEB1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B936DC2AB9413000AEB1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02B936DE2AB9413000AEB1F4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		02B936E12AB9413100AEB1F4 /* JenniCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JenniCare.xcdatamodel; sourceTree = "<group>"; };
+		02B936E72AB9413100AEB1F4 /* JenniCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenniCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B936EB2AB9413100AEB1F4 /* JenniCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenniCareTests.swift; sourceTree = "<group>"; };
+		02B936F12AB9413100AEB1F4 /* JenniCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenniCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B936F52AB9413100AEB1F4 /* JenniCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenniCareUITests.swift; sourceTree = "<group>"; };
+		02B936F72AB9413100AEB1F4 /* JenniCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenniCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02B937172AB9482100AEB1F4 /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B936CF2AB9413000AEB1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029459062ABF7C30002CEAA4 /* OpenAIKit in Frameworks */,
+				0279C3292AD680A700D7C6EB /* FirebaseAuthCombine-Community in Frameworks */,
+				0279C3232AD680A700D7C6EB /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				0279C3332AD680A700D7C6EB /* FirebaseFirestoreSwift in Frameworks */,
+				0279C3312AD680A700D7C6EB /* FirebaseFirestoreCombine-Community in Frameworks */,
+				0279C32B2AD680A700D7C6EB /* FirebaseDatabase in Frameworks */,
+				0279C3212AD680A700D7C6EB /* FirebaseAnalytics in Frameworks */,
+				0279C3352AD680A700D7C6EB /* FirebaseStorage in Frameworks */,
+				0279C3252AD680A700D7C6EB /* FirebaseAnalyticsSwift in Frameworks */,
+				0279C32F2AD680A700D7C6EB /* FirebaseFirestore in Frameworks */,
+				0279C32D2AD680A700D7C6EB /* FirebaseDatabaseSwift in Frameworks */,
+				0279C3272AD680A700D7C6EB /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B936E42AB9413100AEB1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B936EE2AB9413100AEB1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B936C92AB9413000AEB1F4 = {
+			isa = PBXGroup;
+			children = (
+				02B936D42AB9413000AEB1F4 /* JenniCare */,
+				02B936EA2AB9413100AEB1F4 /* JenniCareTests */,
+				02B936F42AB9413100AEB1F4 /* JenniCareUITests */,
+				02B936D32AB9413000AEB1F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B936D32AB9413000AEB1F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B936D22AB9413000AEB1F4 /* JenniCare.app */,
+				02B936E72AB9413100AEB1F4 /* JenniCareTests.xctest */,
+				02B936F12AB9413100AEB1F4 /* JenniCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B936D42AB9413000AEB1F4 /* JenniCare */ = {
+			isa = PBXGroup;
+			children = (
+				02B936D52AB9413000AEB1F4 /* JenniCareApp.swift */,
+				02B936D72AB9413000AEB1F4 /* ContentView.swift */,
+				0279C31B2AD6349B00D7C6EB /* HomeView.swift */,
+				029458FE2ABF7A1E002CEAA4 /* OpenAI.swift */,
+				02B937172AB9482100AEB1F4 /* Backend.swift */,
+				02B936D92AB9413000AEB1F4 /* Assets.xcassets */,
+				0279C3362AD6815700D7C6EB /* GoogleService-Info.plist */,
+				02B936DE2AB9413000AEB1F4 /* Persistence.swift */,
+				02B936E02AB9413100AEB1F4 /* JenniCare.xcdatamodeld */,
+				02B936DB2AB9413000AEB1F4 /* Preview Content */,
+			);
+			path = JenniCare;
+			sourceTree = "<group>";
+		};
+		02B936DB2AB9413000AEB1F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02B936DC2AB9413000AEB1F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02B936EA2AB9413100AEB1F4 /* JenniCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B936EB2AB9413100AEB1F4 /* JenniCareTests.swift */,
+			);
+			path = JenniCareTests;
+			sourceTree = "<group>";
+		};
+		02B936F42AB9413100AEB1F4 /* JenniCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02B936F52AB9413100AEB1F4 /* JenniCareUITests.swift */,
+				02B936F72AB9413100AEB1F4 /* JenniCareUITestsLaunchTests.swift */,
+			);
+			path = JenniCareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B936D12AB9413000AEB1F4 /* JenniCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B936FB2AB9413100AEB1F4 /* Build configuration list for PBXNativeTarget "JenniCare" */;
+			buildPhases = (
+				02B936CE2AB9413000AEB1F4 /* Sources */,
+				02B936CF2AB9413000AEB1F4 /* Frameworks */,
+				02B936D02AB9413000AEB1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenniCare;
+			packageProductDependencies = (
+				029459052ABF7C30002CEAA4 /* OpenAIKit */,
+				0279C3202AD680A700D7C6EB /* FirebaseAnalytics */,
+				0279C3222AD680A700D7C6EB /* FirebaseAnalyticsOnDeviceConversion */,
+				0279C3242AD680A700D7C6EB /* FirebaseAnalyticsSwift */,
+				0279C3262AD680A700D7C6EB /* FirebaseAuth */,
+				0279C3282AD680A700D7C6EB /* FirebaseAuthCombine-Community */,
+				0279C32A2AD680A700D7C6EB /* FirebaseDatabase */,
+				0279C32C2AD680A700D7C6EB /* FirebaseDatabaseSwift */,
+				0279C32E2AD680A700D7C6EB /* FirebaseFirestore */,
+				0279C3302AD680A700D7C6EB /* FirebaseFirestoreCombine-Community */,
+				0279C3322AD680A700D7C6EB /* FirebaseFirestoreSwift */,
+				0279C3342AD680A700D7C6EB /* FirebaseStorage */,
+			);
+			productName = JenniCare;
+			productReference = 02B936D22AB9413000AEB1F4 /* JenniCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B936E62AB9413100AEB1F4 /* JenniCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B936FE2AB9413100AEB1F4 /* Build configuration list for PBXNativeTarget "JenniCareTests" */;
+			buildPhases = (
+				02B936E32AB9413100AEB1F4 /* Sources */,
+				02B936E42AB9413100AEB1F4 /* Frameworks */,
+				02B936E52AB9413100AEB1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B936E92AB9413100AEB1F4 /* PBXTargetDependency */,
+			);
+			name = JenniCareTests;
+			productName = JenniCareTests;
+			productReference = 02B936E72AB9413100AEB1F4 /* JenniCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02B936F02AB9413100AEB1F4 /* JenniCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B937012AB9413100AEB1F4 /* Build configuration list for PBXNativeTarget "JenniCareUITests" */;
+			buildPhases = (
+				02B936ED2AB9413100AEB1F4 /* Sources */,
+				02B936EE2AB9413100AEB1F4 /* Frameworks */,
+				02B936EF2AB9413100AEB1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B936F32AB9413100AEB1F4 /* PBXTargetDependency */,
+			);
+			name = JenniCareUITests;
+			productName = JenniCareUITests;
+			productReference = 02B936F12AB9413100AEB1F4 /* JenniCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B936CA2AB9413000AEB1F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02B936D12AB9413000AEB1F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					02B936E62AB9413100AEB1F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 02B936D12AB9413000AEB1F4;
+					};
+					02B936F02AB9413100AEB1F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 02B936D12AB9413000AEB1F4;
+					};
+				};
+			};
+			buildConfigurationList = 02B936CD2AB9413000AEB1F4 /* Build configuration list for PBXProject "JenniCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B936C92AB9413000AEB1F4;
+			packageReferences = (
+				029459042ABF7C30002CEAA4 /* XCRemoteSwiftPackageReference "openai-kit" */,
+				029459072ABF7CB2002CEAA4 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
+				0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 02B936D32AB9413000AEB1F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B936D12AB9413000AEB1F4 /* JenniCare */,
+				02B936E62AB9413100AEB1F4 /* JenniCareTests */,
+				02B936F02AB9413100AEB1F4 /* JenniCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B936D02AB9413000AEB1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B936DD2AB9413000AEB1F4 /* Preview Assets.xcassets in Resources */,
+				02B936DA2AB9413000AEB1F4 /* Assets.xcassets in Resources */,
+				0279C3372AD6815700D7C6EB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B936E52AB9413100AEB1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0279C3382AD6815700D7C6EB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B936EF2AB9413100AEB1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0279C3392AD6815700D7C6EB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B936CE2AB9413000AEB1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B936DF2AB9413000AEB1F4 /* Persistence.swift in Sources */,
+				0279C31C2AD6349B00D7C6EB /* HomeView.swift in Sources */,
+				02B936E22AB9413100AEB1F4 /* JenniCare.xcdatamodeld in Sources */,
+				02B936D82AB9413000AEB1F4 /* ContentView.swift in Sources */,
+				029458FF2ABF7A1E002CEAA4 /* OpenAI.swift in Sources */,
+				02B936D62AB9413000AEB1F4 /* JenniCareApp.swift in Sources */,
+				02B937182AB9482100AEB1F4 /* Backend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B936E32AB9413100AEB1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029459002ABF7A1E002CEAA4 /* OpenAI.swift in Sources */,
+				0279C31D2AD6349B00D7C6EB /* HomeView.swift in Sources */,
+				02B937192AB9482100AEB1F4 /* Backend.swift in Sources */,
+				02B936EC2AB9413100AEB1F4 /* JenniCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B936ED2AB9413100AEB1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B936F82AB9413100AEB1F4 /* JenniCareUITestsLaunchTests.swift in Sources */,
+				02B936F62AB9413100AEB1F4 /* JenniCareUITests.swift in Sources */,
+				02B9371A2AB9482100AEB1F4 /* Backend.swift in Sources */,
+				0279C31E2AD6349B00D7C6EB /* HomeView.swift in Sources */,
+				029459012ABF7A1E002CEAA4 /* OpenAI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B936E92AB9413100AEB1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B936D12AB9413000AEB1F4 /* JenniCare */;
+			targetProxy = 02B936E82AB9413100AEB1F4 /* PBXContainerItemProxy */;
+		};
+		02B936F32AB9413100AEB1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B936D12AB9413000AEB1F4 /* JenniCare */;
+			targetProxy = 02B936F22AB9413100AEB1F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02B936F92AB9413100AEB1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02B936FA2AB9413100AEB1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B936FC2AB9413100AEB1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JenniCare/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DGSAABJQ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access is required for appointment transcription!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cusick.jennicare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02B936FD2AB9413100AEB1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JenniCare/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DGSAABJQ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access is required for appointment transcription!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cusick.jennicare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02B936FF2AB9413100AEB1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S25YR94SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JenniCare.JenniCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenniCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JenniCare";
+			};
+			name = Debug;
+		};
+		02B937002AB9413100AEB1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S25YR94SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JenniCare.JenniCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenniCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JenniCare";
+			};
+			name = Release;
+		};
+		02B937022AB9413100AEB1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S25YR94SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JenniCare.JenniCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenniCare;
+			};
+			name = Debug;
+		};
+		02B937032AB9413100AEB1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S25YR94SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JenniCare.JenniCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenniCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B936CD2AB9413000AEB1F4 /* Build configuration list for PBXProject "JenniCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B936F92AB9413100AEB1F4 /* Debug */,
+				02B936FA2AB9413100AEB1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B936FB2AB9413100AEB1F4 /* Build configuration list for PBXNativeTarget "JenniCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B936FC2AB9413100AEB1F4 /* Debug */,
+				02B936FD2AB9413100AEB1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B936FE2AB9413100AEB1F4 /* Build configuration list for PBXNativeTarget "JenniCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B936FF2AB9413100AEB1F4 /* Debug */,
+				02B937002AB9413100AEB1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B937012AB9413100AEB1F4 /* Build configuration list for PBXNativeTarget "JenniCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B937022AB9413100AEB1F4 /* Debug */,
+				02B937032AB9413100AEB1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+		029459042ABF7C30002CEAA4 /* XCRemoteSwiftPackageReference "openai-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dylanshine/openai-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		029459072ABF7CB2002CEAA4 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/awslabs/aws-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0279C3202AD680A700D7C6EB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0279C3222AD680A700D7C6EB /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		0279C3242AD680A700D7C6EB /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		0279C3262AD680A700D7C6EB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0279C3282AD680A700D7C6EB /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		0279C32A2AD680A700D7C6EB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0279C32C2AD680A700D7C6EB /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		0279C32E2AD680A700D7C6EB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0279C3302AD680A700D7C6EB /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		0279C3322AD680A700D7C6EB /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		0279C3342AD680A700D7C6EB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0279C31F2AD680A700D7C6EB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		029459052ABF7C30002CEAA4 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 029459042ABF7C30002CEAA4 /* XCRemoteSwiftPackageReference "openai-kit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		02B936E02AB9413100AEB1F4 /* JenniCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02B936E12AB9413100AEB1F4 /* JenniCare.xcdatamodel */,
+			);
+			currentVersion = 02B936E12AB9413100AEB1F4 /* JenniCare.xcdatamodel */;
+			path = JenniCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02B936CA2AB9413000AEB1F4 /* Project object */;
+}
